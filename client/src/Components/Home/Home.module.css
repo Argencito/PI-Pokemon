@@ -1,0 +1,122 @@
+ .fondo2{
+    background-image: url("../../img/fond.png") ; 
+    width: 100%;
+    
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: auto;
+} 
+.card{
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  text-align: center;
+   
+  }
+  
+  .pcard {
+    
+    background-color: rgba(7, 85, 149, 0.622);
+    padding: 50px;
+    border:4px solid rgb(3, 4, 4);
+    border-radius:50px;
+    box-shadow: 12px 5px 5px black;
+    margin: 40px;
+    width: 30%;
+    
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+   
+  }
+  .pcard:hover{
+    background-color: rgba(232, 232, 233, 0.657);
+    transition: 2s;
+}
+
+ 
+ 
+  
+  .all {
+    padding: 1.3em 6em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    color: black;
+    background-color: #0baef446;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 2px 2px black;
+  }
+
+  .az{
+    padding: 1.3em 6em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    color: black;;
+    background-color: #0baef446;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 2px 2px black;
+  }
+
+  .reload{
+    padding: 1.3em 6em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    color: #fafcfe82;
+    background-color: #0a0a0a44;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 2px 2px rgb(6, 7, 7);
+  }
+  .fuerza{
+    padding: 1.3em 6em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    color:black;;
+    background-color: #0baef446;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 2px 2px black;
+  }
+  .types{
+    padding: 1.3em 6em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    color: black;;
+    background-color:  #0baef446;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 2px 2px black;
+  }
+
+  .br{
+    margin-top: 200px;
+  }
